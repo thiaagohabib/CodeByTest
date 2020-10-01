@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: solid 2px red
+  }
+  
+  .layout{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  header {
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    height: 50px;
+  }
+
+  footer{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: deepskyblue;
+    height: 50px;
+  }
+  
+  section{
+    display: flex;
+    min-height: calc(100vh - 100px);
+  }
+  
+  nav{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: gray;
+    flex-grow: 2;
+  }
+  
+  aside{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-color: blue;
+    flex-grow: 1;
+  }
+  
+  article{
+    flex-grow: 6;
+    /*order: -1;*/
+    height: auto;
+  }
+  
+  h1{
+    margin: 40px;
+    color: black;
+  }
